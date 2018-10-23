@@ -7,6 +7,6 @@ import com.aiesec.tyntec.rockPaperScissorsGame.game_enums.PlayerDescison;
  *
  */
 public interface PlayStrategy {
-	// Get player decision for each round 
+
 	PlayerDescison retrievePlayerDescision(int round);
 }

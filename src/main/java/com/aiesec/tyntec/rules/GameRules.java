@@ -9,8 +9,10 @@ import com.aiesec.tyntec.rockPaperScissorsGame.game_enums.ResultRound;
  */
 public interface GameRules {
 
-	// Return the winner in this  specific  round according  to the two players  descison 
-
+	/**
+	 * 
+	 * @return the round winner according to the descison of the two player
+	 */
 	ResultRound getTheRoundWinner(PlayerDescison playerDescisonA, PlayerDescison playerDescisonB);
 
 }

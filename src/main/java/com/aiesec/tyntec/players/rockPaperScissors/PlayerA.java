@@ -15,10 +15,17 @@ import com.aiesec.tyntec.rockPaperScissorsGame.game_enums.PlayerDescison;
 @Component
 @Qualifier("PlayerA")
 public class PlayerA implements Player {
+
+	/*
+	 * Define PlayerA dependencies
+	 */
 	@Autowired
 	@Qualifier("PaperMethod")
 	PlayStrategy playMethod;
 
+	/*
+	 *  Return PlayerB descison according to the paper strategy within a specific round
+	 */
 	@Override
 	public PlayerDescison retrievePlayerDescision(int round) {
 		return playMethod.retrievePlayerDescision(round);

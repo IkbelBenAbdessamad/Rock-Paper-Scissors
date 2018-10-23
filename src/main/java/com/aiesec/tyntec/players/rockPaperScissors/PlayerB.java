@@ -16,11 +16,16 @@ import com.aiesec.tyntec.rockPaperScissorsGame.game_enums.PlayerDescison;
 @Qualifier("PlayerB")
 public class PlayerB implements Player {
 
-	// Using the depenedcy inversion principle of the STRONG acronym
+	/*
+	 * Define PlayerB dependencies
+	 */
 	@Autowired
 	@Qualifier("RandomMethod")
 	PlayStrategy playMetod;
 
+	/*
+	 * Return PlayerA descison according to the Random strategy within a specific round
+	 */
 	@Override
 	public PlayerDescison retrievePlayerDescision(int round) {
 		return playMetod.retrievePlayerDescision(round);

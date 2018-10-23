@@ -12,14 +12,10 @@ import com.aiesec.tyntec.rules.GameRules;
  */
 @Component
 public class rockPaperScissorsRulesImp implements GameRules {
-	// the rules of our game are :
-	//  Scissors beats Paper
-	//  Rock beat Scissors
-	//  Paper beats Rock
-	// If both players choose the same, the round is counted as a tie.
-	// this function give us the result of a specific round (Tie,Player_A_win or
-	// Player_B_win)
 
+	/**
+	 * Return the Result of a specific round according to PlayerA and PlayerB descisons 
+	 */
 	@Override
 	public ResultRound getTheRoundWinner(PlayerDescison playerDescisonA, PlayerDescison playerDescisonB) {
 
@@ -35,7 +31,7 @@ public class rockPaperScissorsRulesImp implements GameRules {
 			return ResultRound.Player_B_win;
 		else
 			throw new IllegalArgumentException(
-					"playerDescion argument  doesn't mutch with the  predefined  ones (Roc,Paper,Scissors)");
+					"playerDescion argument  doesn't match with the  predefined  ones (Rock,Paper,Scissors)");
 	}
 
 }

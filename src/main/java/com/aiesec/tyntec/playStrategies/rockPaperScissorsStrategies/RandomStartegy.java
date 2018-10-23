@@ -18,14 +18,11 @@ public class RandomStartegy implements PlayStrategy {
 	private final Random Random = new Random();
 	private int answer;
 
-	// Choose randomly a Descision (Rock,Paper or Scissors ) in the defined round
-
+	/**
+	 * Return a random Player Descison according to the random value returned by getRandomFrom1to3() method
+	 */
 	@Override
 	public PlayerDescison retrievePlayerDescision(int round) {
-
-		/**
-		 * 'answer' variable may be 1 ,2 or 3 depending on the Random value
-		 */
 
 		int value = getRandomFrom1to3();
 		switch (value) {
@@ -39,6 +36,9 @@ public class RandomStartegy implements PlayStrategy {
 		}
 	}
 
+	/**
+	 * Return a random variable range from 1-3
+	 */
 	public int getRandomFrom1to3() {
 		answer = Random.nextInt(3) + 1;
 		return answer;

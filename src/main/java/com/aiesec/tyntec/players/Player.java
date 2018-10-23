@@ -7,7 +7,9 @@ import com.aiesec.tyntec.rockPaperScissorsGame.game_enums.PlayerDescison;
  *
  */
 public interface Player {
-	// Get the palyer descision according to its strategie within a specific round
-	PlayerDescison retrievePlayerDescision(int  round);
+	/*
+	 * Get a palyer descision according to its strategie within a specific round
+	 */
+	PlayerDescison retrievePlayerDescision(int round);
 
 }

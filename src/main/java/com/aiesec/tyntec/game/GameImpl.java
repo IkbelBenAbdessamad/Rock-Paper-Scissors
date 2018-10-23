@@ -10,14 +10,18 @@ import com.aiesec.tyntec.rockPaperScissorsGame.GameRes;
 import com.aiesec.tyntec.round.RoundImpl;
 
 /**
- * @author Ikbel benabdessamad 22/10/2018 ==>Return the final result of the Rock
- *         paper scissors after roundNumber round
+ * @author Ikbel benabdessamad 22/10/2018
+ * 
+ * 
  */
 @Component
 public class GameImpl implements Game {
-	// Define all the dependecies of this class
-	// Apply the dependecy inversion principle of the STRONG acronym using the
-	// spring-boot framework
+
+	/**
+	 * Define all class dependencies
+	 * 
+	 */
+
 	@Autowired
 	@Qualifier("PlayerA")
 	PlayerA playerA;
@@ -31,6 +35,9 @@ public class GameImpl implements Game {
 	@Autowired
 	GameRes gameResult;
 
+	/**
+	 * Get the final result of the game after roundNumber round
+	 */
 	@Override
 	public GameRes retriveGameResult(Integer roundNumber) {
 

@@ -10,20 +10,29 @@ import com.aiesec.tyntec.rockPaperScissorsGame.GameRes;
 
 @Configuration
 public class GameConfig {
-	// Apply the depenedecy inversion principle using spring-boot annotations
+
+	/**
+	 * Define all class dependencies
+	 * 
+	 */
 	@Autowired
 	GameRes gameImp;
 	@Autowired
 	GameImpl game;
 
-	// Declare RoundNumber as variable in order to hande multiple uses cases ( the
-	// round number can change)
 	private static final int RoundNumber = 100;
 
+	/**
+	 * @PostConstruct is run just after all the project components initialized
+	 * 
+	 */
+	/**
+	 * This method return the final result of the Rock paper scissors game
+	 */
 	@PostConstruct
 	public void displayResult() {
 
-		 game.retriveGameResult(RoundNumber);
+		game.retriveGameResult(RoundNumber);
 
 		System.out.println("\n\nPlayer A wins " + gameImp.getCountWinPlayerA() + " of " + RoundNumber);
 		System.out.println("Player B wins " + gameImp.getCountWinPlayerB() + " of " + RoundNumber);

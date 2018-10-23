@@ -1,8 +1,24 @@
-2018-10-23 15:44:00.316 ERROR 2808 --- [main] o.s.b.l.LoggingApplicationListener       : Cannot set level: DEBUG  for 'org.com.aiesec.tyntec'
-2018-10-23 15:44:00.389  INFO 2808 --- [main] com.aiesec.tyntec.TyntecTestApplication  : Starting TyntecTestApplication on asuspc with PID 2808 (C:\Users\asus\Desktop\Stage\Projects\tyntec_test\target\classes started by asus in C:\Users\asus\Desktop\Stage\Projects\tyntec_test)
-2018-10-23 15:44:00.389  INFO 2808 --- [main] com.aiesec.tyntec.TyntecTestApplication  : No active profile set, falling back to default profiles: default
-2018-10-23 15:44:00.455  INFO 2808 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@314c508a: startup date [Tue Oct 23 15:44:00 GMT+01:00 2018]; root of context hierarchy
-2018-10-23 15:44:00.982  INFO 2808 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
-2018-10-23 15:44:00.995  INFO 2808 --- [main] com.aiesec.tyntec.TyntecTestApplication  : Started TyntecTestApplication in 0.87 seconds (JVM running for 2.015)
-2018-10-23 15:44:00.996  INFO 2808 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@314c508a: startup date [Tue Oct 23 15:44:00 GMT+01:00 2018]; root of context hierarchy
-2018-10-23 15:44:00.998  INFO 2808 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-10-23 16:02:54.349 ERROR 4016 --- [main] o.s.b.l.LoggingApplicationListener       : Cannot set level: DEBUG  for 'org.com.aiesec.tyntec'
+2018-10-23 16:02:54.445  INFO 4016 --- [main] com.aiesec.tyntec.TyntecTestApplication  : Starting TyntecTestApplication on asuspc with PID 4016 (C:\Users\asus\Desktop\Stage\Projects\tyntec_test\target\classes started by asus in C:\Users\asus\Desktop\Stage\Projects\tyntec_test)
+2018-10-23 16:02:54.445  INFO 4016 --- [main] com.aiesec.tyntec.TyntecTestApplication  : No active profile set, falling back to default profiles: default
+2018-10-23 16:02:54.520  INFO 4016 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@314c508a: startup date [Tue Oct 23 16:02:54 GMT+01:00 2018]; root of context hierarchy
+2018-10-23 16:02:55.194  INFO 4016 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-23 16:02:55.208  INFO 4016 --- [main] com.aiesec.tyntec.TyntecTestApplication  : Started TyntecTestApplication in 1.12 seconds (JVM running for 2.66)
+2018-10-23 16:02:55.211  INFO 4016 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@314c508a: startup date [Tue Oct 23 16:02:54 GMT+01:00 2018]; root of context hierarchy
+2018-10-23 16:02:55.213  INFO 4016 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-10-23 16:05:18.049 ERROR 4584 --- [main] o.s.b.l.LoggingApplicationListener       : Cannot set level: DEBUG  for 'org.com.aiesec.tyntec'
+2018-10-23 16:05:18.125  INFO 4584 --- [main] com.aiesec.tyntec.TyntecTestApplication  : Starting TyntecTestApplication on asuspc with PID 4584 (C:\Users\asus\Desktop\Stage\Projects\tyntec_test\target\classes started by asus in C:\Users\asus\Desktop\Stage\Projects\tyntec_test)
+2018-10-23 16:05:18.126  INFO 4584 --- [main] com.aiesec.tyntec.TyntecTestApplication  : No active profile set, falling back to default profiles: default
+2018-10-23 16:05:18.190  INFO 4584 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@314c508a: startup date [Tue Oct 23 16:05:18 GMT+01:00 2018]; root of context hierarchy
+2018-10-23 16:05:18.753  INFO 4584 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-23 16:05:18.767  INFO 4584 --- [main] com.aiesec.tyntec.TyntecTestApplication  : Started TyntecTestApplication in 0.928 seconds (JVM running for 2.186)
+2018-10-23 16:05:18.769  INFO 4584 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@314c508a: startup date [Tue Oct 23 16:05:18 GMT+01:00 2018]; root of context hierarchy
+2018-10-23 16:05:18.770  INFO 4584 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-10-23 19:09:10.265 ERROR 9052 --- [main] o.s.b.l.LoggingApplicationListener       : Cannot set level: DEBUG  for 'org.com.aiesec.tyntec'
+2018-10-23 19:09:10.345  INFO 9052 --- [main] com.aiesec.tyntec.TyntecTestApplication  : Starting TyntecTestApplication on asuspc with PID 9052 (C:\Users\asus\Desktop\Stage\Projects\tyntec_test\target\classes started by asus in C:\Users\asus\Desktop\Stage\Projects\tyntec_test)
+2018-10-23 19:09:10.345  INFO 9052 --- [main] com.aiesec.tyntec.TyntecTestApplication  : No active profile set, falling back to default profiles: default
+2018-10-23 19:09:10.405  INFO 9052 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@314c508a: startup date [Tue Oct 23 19:09:10 GMT+01:00 2018]; root of context hierarchy
+2018-10-23 19:09:10.932  INFO 9052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-23 19:09:10.952  INFO 9052 --- [main] com.aiesec.tyntec.TyntecTestApplication  : Started TyntecTestApplication in 0.87 seconds (JVM running for 2.038)
+2018-10-23 19:09:10.952  INFO 9052 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@314c508a: startup date [Tue Oct 23 19:09:10 GMT+01:00 2018]; root of context hierarchy
+2018-10-23 19:09:10.952  INFO 9052 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown

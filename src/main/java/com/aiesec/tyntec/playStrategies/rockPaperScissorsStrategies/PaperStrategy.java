@@ -13,8 +13,10 @@ import com.aiesec.tyntec.rockPaperScissorsGame.game_enums.PlayerDescison;
 @Component
 @Qualifier("PaperMethod")
 public class PaperStrategy implements PlayStrategy {
-	// This class always return Paper according
 
+    /*
+     * Usually return Paper according  to the Paper strategy 
+     */
 	@Override
 	public PlayerDescison retrievePlayerDescision(int round) {
 		return PlayerDescison.Paper;
