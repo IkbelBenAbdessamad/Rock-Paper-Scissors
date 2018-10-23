@@ -26,7 +26,7 @@ I've done  2 JUnit test:
 - Avoiding  tightly coupled code and  write "Good  code" that is loosely coupled  
 - Using open/closed principle ( the project (classes, modules, functions, etc.) should be open for extension, but closed for modification)
 - Using  Dependency inversion principle (By adopting  the dependency injection framework spring-boot )
-- Utilize Slf4j logging framework by create `Aiesec_tyntec.log that contains the logs of `com.aiesec.tyntec ` package 
+- Utilize Slf4j logging framework by create `Aiesec_tyntec.log ` that contains the logs of `com.aiesec.tyntec ` package 
 - Ability to reuse game code for 2 player games(chess game,XO game .... ) 
 - Using the single responsibility principle  (Every class  have  only one responsibility/task)
 
