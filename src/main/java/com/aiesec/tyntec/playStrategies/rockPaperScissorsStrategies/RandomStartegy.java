@@ -1,11 +1,11 @@
-package com.aiesec.tyntec.playMethod.rockPaperScissors;
+package com.aiesec.tyntec.playStrategies.rockPaperScissorsStrategies;
 
 import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-import com.aiesec.tyntec.playMethod.PlayMethod;
+import com.aiesec.tyntec.playStrategies.PlayStrategy;
 import com.aiesec.tyntec.rockPaperScissorsGame.game_enums.PlayerDescison;
 
 /**
@@ -14,7 +14,7 @@ import com.aiesec.tyntec.rockPaperScissorsGame.game_enums.PlayerDescison;
  */
 @Component
 @Qualifier("RandomMethod")
-public class RandomMethod implements PlayMethod {
+public class RandomStartegy implements PlayStrategy {
 	private final Random Random = new Random();
 	private int answer;
 
@@ -23,15 +23,12 @@ public class RandomMethod implements PlayMethod {
 	@Override
 	public PlayerDescison retrievePlayerDescision(int round) {
 
-		return retrievePlayerDesc();
-	}
-
-	public PlayerDescison retrievePlayerDesc() {
 		/**
 		 * 'answer' variable may be 1 ,2 or 3 depending on the Random value
 		 */
-		answer = Random.nextInt(3) + 1;
-		switch (answer) {
+
+		int value = getRandomFrom1to3();
+		switch (value) {
 		case 1:
 			return PlayerDescison.Rock;
 		case 2:
@@ -40,7 +37,11 @@ public class RandomMethod implements PlayMethod {
 			return PlayerDescison.Scissors;
 
 		}
+	}
 
+	public int getRandomFrom1to3() {
+		answer = Random.nextInt(3) + 1;
+		return answer;
 	}
 
 }

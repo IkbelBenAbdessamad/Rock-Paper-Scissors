@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-import com.aiesec.tyntec.playMethod.PlayMethod;
+import com.aiesec.tyntec.playStrategies.PlayStrategy;
 import com.aiesec.tyntec.players.Player;
 import com.aiesec.tyntec.rockPaperScissorsGame.game_enums.PlayerDescison;
 
@@ -19,7 +19,7 @@ public class PlayerB implements Player {
 	// Using the depenedcy inversion principle of the STRONG acronym
 	@Autowired
 	@Qualifier("RandomMethod")
-	PlayMethod playMetod;
+	PlayStrategy playMetod;
 
 	@Override
 	public PlayerDescison retrievePlayerDescision(int round) {

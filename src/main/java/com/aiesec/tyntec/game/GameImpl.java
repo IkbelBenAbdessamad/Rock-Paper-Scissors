@@ -32,13 +32,14 @@ public class GameImpl implements Game {
 	GameRes gameResult;
 
 	@Override
-	public void retriveGameResult(Integer roundNumber) {
+	public GameRes retriveGameResult(Integer roundNumber) {
 
 		for (int j = 0; j < roundNumber; j++) {
 			gameResult.addRoundResult(roundResult.getRoundWinner(playerA.retrievePlayerDescision(roundNumber),
 					playerB.retrievePlayerDescision(roundNumber)));
 		}
 
+		return gameResult;
 	}
 
 }

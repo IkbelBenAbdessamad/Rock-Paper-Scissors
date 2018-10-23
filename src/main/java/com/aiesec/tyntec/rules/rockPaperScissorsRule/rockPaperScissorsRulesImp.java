@@ -17,18 +17,25 @@ public class rockPaperScissorsRulesImp implements GameRules {
 	//  Rock beat Scissors
 	//  Paper beats Rock
 	// If both players choose the same, the round is counted as a tie.
-	// this function give us the result of a specific round (Tie,Player_A_win or Player_B_win)
+	// this function give us the result of a specific round (Tie,Player_A_win or
+	// Player_B_win)
 
 	@Override
 	public ResultRound getTheRoundWinner(PlayerDescison playerDescisonA, PlayerDescison playerDescisonB) {
-		if (playerDescisonA == playerDescisonB)
+
+		if (playerDescisonA.equals(playerDescisonB))
 			return ResultRound.Tie;
-		else if ((playerDescisonA == PlayerDescison.Scissors && playerDescisonB == PlayerDescison.Paper)
-				|| (playerDescisonA == PlayerDescison.Rock && playerDescisonB == PlayerDescison.Scissors)
-				|| (playerDescisonA == PlayerDescison.Paper && playerDescisonB == PlayerDescison.Rock))
+		else if ((playerDescisonA.equals(PlayerDescison.Scissors) && playerDescisonB.equals(PlayerDescison.Paper))
+				|| (playerDescisonA.equals(PlayerDescison.Rock) && playerDescisonB.equals(PlayerDescison.Scissors))
+				|| (playerDescisonA.equals(PlayerDescison.Paper) && playerDescisonB.equals(PlayerDescison.Rock)))
 			return ResultRound.Player_A_win;
-		else
+		else if ((playerDescisonA.equals(PlayerDescison.Paper) && playerDescisonB.equals(PlayerDescison.Scissors))
+				|| (playerDescisonA.equals(PlayerDescison.Scissors) && playerDescisonB.equals(PlayerDescison.Rock))
+				|| (playerDescisonA.equals(PlayerDescison.Rock) && playerDescisonB.equals(PlayerDescison.Paper)))
 			return ResultRound.Player_B_win;
+		else
+			throw new IllegalArgumentException(
+					"playerDescion argument  doesn't mutch with the  predefined  ones (Roc,Paper,Scissors)");
 	}
 
 }

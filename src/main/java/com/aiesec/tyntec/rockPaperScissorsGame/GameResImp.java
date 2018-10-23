@@ -17,17 +17,17 @@ import com.aiesec.tyntec.rockPaperScissorsGame.game_enums.ResultRound;
  **/
 
 @Component
-public class GameImp implements GameRes {
+public class GameResImp implements GameRes {
 
 	private AtomicInteger countWinPlayerA = new AtomicInteger(0);
 	private AtomicInteger countWinPlayerB = new AtomicInteger(0);
 	private AtomicInteger countTie = new AtomicInteger(0);
-    
+
 	@Override
-	public void addRoundResult(ResultRound ResultRound) {
-		if (ResultRound == ResultRound.Tie) {
+	public void addRoundResult(ResultRound resultRound) {
+		if (resultRound == resultRound.Tie) {
 			countTie.incrementAndGet();
-		} else if (ResultRound == ResultRound.Player_A_win) {
+		} else if (resultRound == resultRound.Player_A_win) {
 			countWinPlayerA.incrementAndGet();
 		} else {
 			countWinPlayerB.incrementAndGet();

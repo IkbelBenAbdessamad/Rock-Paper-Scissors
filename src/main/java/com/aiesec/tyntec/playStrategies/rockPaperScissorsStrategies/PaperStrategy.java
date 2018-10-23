@@ -1,9 +1,9 @@
-package com.aiesec.tyntec.playMethod.rockPaperScissors;
+package com.aiesec.tyntec.playStrategies.rockPaperScissorsStrategies;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-import com.aiesec.tyntec.playMethod.PlayMethod;
+import com.aiesec.tyntec.playStrategies.PlayStrategy;
 import com.aiesec.tyntec.rockPaperScissorsGame.game_enums.PlayerDescison;
 
 /**
@@ -12,7 +12,7 @@ import com.aiesec.tyntec.rockPaperScissorsGame.game_enums.PlayerDescison;
  */
 @Component
 @Qualifier("PaperMethod")
-public class PaperMethod implements PlayMethod {
+public class PaperStrategy implements PlayStrategy {
 	// This class always return Paper according
 
 	@Override

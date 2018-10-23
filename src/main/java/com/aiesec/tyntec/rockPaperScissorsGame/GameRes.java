@@ -7,12 +7,12 @@ import com.aiesec.tyntec.rockPaperScissorsGame.game_enums.ResultRound;
  *
  */
 public interface GameRes {
+
+	void addRoundResult(ResultRound resultRound);
+
 	int getCountWinPlayerA();
 
 	int getCountWinPlayerB();
 
 	int getCountTie();
-
-	void addRoundResult(ResultRound ResultRound);
-
 }
