@@ -1,0 +1,8 @@
+2018-10-23 15:44:00.316 ERROR 2808 --- [main] o.s.b.l.LoggingApplicationListener       : Cannot set level: DEBUG  for 'org.com.aiesec.tyntec'
+2018-10-23 15:44:00.389  INFO 2808 --- [main] com.aiesec.tyntec.TyntecTestApplication  : Starting TyntecTestApplication on asuspc with PID 2808 (C:\Users\asus\Desktop\Stage\Projects\tyntec_test\target\classes started by asus in C:\Users\asus\Desktop\Stage\Projects\tyntec_test)
+2018-10-23 15:44:00.389  INFO 2808 --- [main] com.aiesec.tyntec.TyntecTestApplication  : No active profile set, falling back to default profiles: default
+2018-10-23 15:44:00.455  INFO 2808 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@314c508a: startup date [Tue Oct 23 15:44:00 GMT+01:00 2018]; root of context hierarchy
+2018-10-23 15:44:00.982  INFO 2808 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-23 15:44:00.995  INFO 2808 --- [main] com.aiesec.tyntec.TyntecTestApplication  : Started TyntecTestApplication in 0.87 seconds (JVM running for 2.015)
+2018-10-23 15:44:00.996  INFO 2808 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@314c508a: startup date [Tue Oct 23 15:44:00 GMT+01:00 2018]; root of context hierarchy
+2018-10-23 15:44:00.998  INFO 2808 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
