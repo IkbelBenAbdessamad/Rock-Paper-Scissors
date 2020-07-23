@@ -1,3 +1,6 @@
+
+![Screenshot from 2020-07-23 10-45-27](https://user-images.githubusercontent.com/42076893/88267838-b8454500-ccd1-11ea-9ae3-6a0594d8ffbc.png)
+
 ### Project Details 
 - **Task:** Build Rock-Paper-Scissors  game 
 - **Programing language:** java 
